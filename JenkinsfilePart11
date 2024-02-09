@@ -5,10 +5,6 @@ pipeline{
         }
     }
 
-    environment {
-    FIREBASE_DEPLOY_TOKEN = credentials('firebase-token')
-    }
-
     stages{
         stage('Building'){
             steps{
