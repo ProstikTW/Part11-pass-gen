@@ -31,7 +31,7 @@ pipeline{
 
         stage('Production'){
             steps{
-            sh 'firebase deploy -P password-production --token "$FIREBASE_DEPLOY_TOKEN"'
+            echo 'I cannot install firebase in instance. It breaks my instance at all!'
             }
         }
     }
