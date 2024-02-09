@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "password_generator",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
