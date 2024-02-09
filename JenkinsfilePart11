@@ -20,6 +20,8 @@ pipeline{
 
         stage('Staging'){
             steps{
+            sh 'npm install -g firebase-tools'
+            sh 'firebase --version'
             echo "I cannot install Firebase"
             }
         }
